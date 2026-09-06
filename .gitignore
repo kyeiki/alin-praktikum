@@ -1,0 +1,19 @@
+# VitePress
+node_modules/
+.vitepress/dist/
+.vitepress/cache/
+
+# Rust
+target/
+
+# Kilo / agent state
+.kilo/
+
+# Artefak & proyek Rust (di luar cakupan repo ini)
+praktikum-al/
+praktikum-all/
+*.pptx
+
+# OS
+Thumbs.db
+.DS_Store
