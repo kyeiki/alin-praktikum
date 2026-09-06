@@ -6,7 +6,7 @@ export default defineConfig({
   title: 'Praktikum Aljabar Linear',
   description:
     'Modul praktikum mata kuliah Aljabar Linear berbasis Rust, Program Sarjana Terapan Teknik Informatika, Politeknik Negeri Bandung.',
-  srcExclude: ['**/modul1-slides.md'],
+  srcExclude: ['**/modul1-slides.md', '**/deploy.md'],
   markdown: {
     config(md) {
       md.use(mathjax3)
@@ -23,10 +23,6 @@ export default defineConfig({
             link: '/modul1',
           },
         ],
-      },
-      {
-        text: 'Panduan',
-        items: [{ text: 'Deploy ke GitHub Pages', link: '/deploy' }],
       },
     ],
     outline: { level: [2, 3] },
