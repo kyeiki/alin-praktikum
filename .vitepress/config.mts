@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import mathjax3 from 'markdown-it-mathjax3'
 
 export default defineConfig({
+  base: '/alin-praktikum/',
   title: 'Praktikum Aljabar Linear',
   description:
     'Modul praktikum mata kuliah Aljabar Linear berbasis Rust, Program Sarjana Terapan Teknik Informatika, Politeknik Negeri Bandung.',
@@ -22,6 +23,10 @@ export default defineConfig({
             link: '/modul1',
           },
         ],
+      },
+      {
+        text: 'Panduan',
+        items: [{ text: 'Deploy ke GitHub Pages', link: '/deploy' }],
       },
     ],
     outline: { level: [2, 3] },
