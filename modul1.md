@@ -615,11 +615,11 @@ Mekanisme proses pengumpulan untuk modul praktikum ini mengikuti tahapan berikut
    | `AL2026` | Aljabar Linear tahun 2026 |
    | `2A/2B/2C/2D` | Kelas |
    | `D4` | Program  |
-   | `2026` | Angkatan |
+   | `2025` | Angkatan |
    | `Modul1` | Nomor Modul |
    | `001` | 3 Digit NIM Terakhir |
 
-   Format arsip: `[AL2026_2A_D4_2026]_Modul1_001.zip`
+   Format arsip: `[AL2026_2A_D4_2025]_Modul1_001.zip`
 
 2. Arsipkan seluruh proyek cargo (kecuali folder `target/`) beserta riwayat `cargo test` (tangkapan layar atau berkas teks).
 3. Susun **Laporan Praktikum (.pdf)** yang mencakup:
